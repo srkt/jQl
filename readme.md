@@ -1,0 +1,1 @@
+This is a fun project to implement SQL type query syntax in Javascript
