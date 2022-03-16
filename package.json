@@ -1,0 +1,43 @@
+{
+  "name": "jsql",
+  "version": "1.0.0",
+  "description": "sql type query syntax in javascript",
+  "main": "index.js",
+  "scripts": {
+    "ts-mocha-help": "ts-mocha --help",
+    "test": "ts-mocha --config .mocharc.json -p tsconfig.json -watch --recursive ./test/**/*spec.ts ./src/**/*.ts",
+    "webpack": "webpack --config webpack.config.js --watch --env mode=development "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srkt/JSql.git"
+  },
+  "keywords": [
+    "JSQL",
+    "SQL"
+  ],
+  "author": "Ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srkt/JSql/issues"
+  },
+  "homepage": "https://github.com/srkt/JSql#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^9.1.0",
+    "chai": "^4.3.6",
+    "flush-cache": "^1.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mocha": "^9.2.2",
+    "mocha-loader": "^5.1.5",
+    "resnap": "^1.0.1",
+    "ts-loader": "^9.2.8",
+    "ts-mocha": "^9.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
